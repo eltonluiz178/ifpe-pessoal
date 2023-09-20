@@ -1,0 +1,56 @@
+1° Questão <br><br>
+
+<script>
+    var anoNascimento, anoAtual;
+    anoNascimento = parseInt(prompt("Digite o seu ano de nascimento: "));
+    anoAtual = parseInt(prompt("Digite o ano atual: "));
+    document.write("Você tem aproximadamente " + (anoAtual - anoNascimento) + " anos de idade.");
+</script>
+
+<br><br>2° Questão <br><br>
+
+<script>
+    var nota1, nota2, media;
+    nota1 = parseFloat(prompt("Digite a 1° nota: "));
+    nota2 = parseFloat(prompt("Digite a 2° nota: "));
+    media = (nota1 + nota2) / 2;
+    document.write("O resultado dessa média é " + media + ".");
+</script>
+
+<br><br>3° Questão <br><br>
+
+<script>
+    var altura, largura, profundidade, area, volume;
+    altura = parseFloat(prompt("Digite a altura da caixa d'água em metros: "));
+    largura = parseFloat(prompt("Digite a largura da caixa d'água em metros: "));
+    profundidade = parseFloat(prompt("Digite a profundidade da caixa d'água em metros: "));
+    area = altura * largura * profundidade;
+    volume = area * 1000;
+    document.write("A capacidade dessa caixa d' água em litros é " + volume + " litros.");
+</script>
+
+<br><br>4° Questão <br><br>
+
+<script>
+    var brancos, nulos, validos, total, x, y, z;
+    brancos = parseFloat(prompt("Digite a quantidades de votos brancos:"));
+    nulos = parseFloat(prompt("Digite a quantidades de votos nulos:"));
+    validos = parseFloat(prompt("Digite a quantidades de votos válidos:"));
+    total = brancos + nulos + validos;
+    x = (brancos * 100) / total;
+    y = (nulos * 100) / total;
+    z = (validos * 100) / total;
+    document.write("O percentual de votos brancos é " + x.toFixed(2) + "%.<br>");
+    document.write("O percentual de votos nulos é " + y.toFixed(2) + "%.<br>");
+    document.write("O percentual de votos validos é " + z.toFixed(2) + "%.<br>");
+</script>
+
+<br><br>5° Questão <br><br>
+
+<script>
+    var a, b, raiz;
+    a = parseFloat(prompt("Digite o coeficiente a :"));
+    b = parseFloat(prompt("Digite o coeficiente b :"));
+    raiz = -b/a;
+    document.write("A raiz desta equação é " + raiz + ".");
+</script>
